@@ -1,0 +1,38 @@
+div{
+    background-color: aqua;
+}
+
+body{
+    background-color: brown;
+}
+@media screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+        
+    }
+    
+   .boxes{
+    flex-direction: column;
+   }
+  
+   
+    
+   
+  }
+  @media screen and (orientation: portrait) {
+    body {
+       border: 2px solid purple;
+    }
+}
+  
+    
+    .box{
+        margin: 10px;
+        padding: 10px;
+        background-color: rgb(57, 230, 19);
+      
+    }
+     .boxes{
+        display: flex;
+        
+    }

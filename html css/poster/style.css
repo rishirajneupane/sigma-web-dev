@@ -1,0 +1,63 @@
+body{
+    background-color: rgb(144, 143, 143);
+}
+
+.outermost{
+    height: 450px;
+    width: 300px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    position: absolute;
+    
+    
+    
+    
+}
+.image{
+    
+   
+    height: 200px;
+    width: 290px;
+    border-radius: 15px;
+    
+    align-items: center;
+    margin-left: 4.5px;
+    margin-top: 4.5px;
+   
+  
+    
+    
+    
+
+}
+.lake{
+    
+    background-color: rgba(238, 195, 143, 0.382);
+    border-radius: 5px;
+    margin-left: 8px;
+    
+}
+.nature{
+    
+    background-color: rgba(238, 195, 143, 0.382);
+  
+    border-radius: 5px; 
+    margin-left: 34%;
+}
+.footer{
+    background-color: rgba(219, 230, 240, 0.838);
+    height: 20px;
+    
+    border-radius: 5px;
+    margin-left: 38%;
+    display: inline;
+}
+h2{ text-align: center;
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    text-align:justify;
+    margin-left: 2px;
+    margin-right: 2px;
+}

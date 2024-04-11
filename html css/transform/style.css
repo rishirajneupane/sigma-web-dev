@@ -1,0 +1,29 @@
+.container{
+    width:100vw;
+    height:80vh;
+    border:2px solid purple;
+
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(238, 248, 51);
+    border: 2px solid rgb(255, 72, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transform: rotate(40deg); */
+    /* transform: rotate(0.15turn); */
+    /* transform: rotateX(125deg); */
+    /* transform: scale(1.5); */
+    /* transform: scaley(1.5); */
+    /* transform:skew(34deg) */
+    /* transform: translate(2px); */
+    /* transform: translate(2%); */
+ 
+    transform: translatex(12px) skew(24deg) scale(1.5);
+
+/* transform-origin: 32% -0%;   check agtransform: translate(2px);ain this origin  */
+
+}
+

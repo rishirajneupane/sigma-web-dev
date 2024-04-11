@@ -1,0 +1,38 @@
+.container{
+    border: 2px solid black;
+    display: grid;
+    /* grid-template-columns:[pahilo] 120px[doshro] 100px [t]; */
+    /* grid-template-rows: 100px 100px 100px; */
+    grid-template-columns: 1fr 2fr 1fr ;
+    
+    /* grid-template-columns:repeat(4,minmax(100px,1fr)) ; minimum 100px samma hunxa 
+    ra max ma 1 fr smma janxa of its total  vw and how many times it actually divided
+     like here 4 times  1 fr of 4 parts for max   */
+
+    /* grid-template-columns: repeat(4,1fr); 4 times 1 fr  lekhnu vanda yo lekhne */
+    /* gap: 40px; */
+    row-gap: 10px;
+    column-gap: 30px;
+    justify-items: center;
+    height: 100vh;
+    width:80vw;
+    align-items: center;
+}
+.item{
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+}
+/* .item-4{
+    grid-row: 1/2;
+     grid-column-start: 1;
+    grid-column-end: 2;
+     grid-column: pahilo/t;
+     align-self:center;
+     justify-self:center;
+    
+}
+.item-1{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}  */

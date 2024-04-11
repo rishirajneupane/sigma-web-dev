@@ -1,0 +1,7 @@
+nav>ol{
+    list-style-position: inside;
+    background-color: yellow;
+    color: black;
+    border: 2px solid red;
+    list-style-type:"😍";
+}

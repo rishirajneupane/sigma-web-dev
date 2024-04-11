@@ -1,0 +1,17 @@
+img{
+    /* filter: blur(10px); */
+}
+.img1{
+    /* filter: grayscale(10%); */
+    filter: sepia(85%);
+}
+.img2{
+filter: contrast(60%);
+
+/* multiple filter lagauna space use garera arko filter add garda hunxa  like other */
+}
+.img3{
+/* filter: brightness(72%); */
+/* filter: invert(95%); */
+filter: opacity(0.2);/*background  transparent garna use hunxa*/
+}

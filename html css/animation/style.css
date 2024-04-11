@@ -1,0 +1,56 @@
+.container{
+    width: 30vw;
+    height: 80vh;
+    background-color: rgba(239, 239, 85, 0.72);
+}
+.box{
+    background-color: rgb(87, 213, 83);
+    width: 34px;
+    height: 45px;
+
+    animation: rishiAnimation 3s ease-in-out 2s 2  backwards,
+    rishiTwo 3s ease-in-out 3s 2 
+    /* animation: rishiAnimation 3s ease-in-out 2s 2 reverse backwards; */
+    /* animation: name duration timing-function delay iteration-count direction fill-mode//fill mode le final property retain garxa (forwards le)
+    ani backward le first ko property retain garxa (initial property); */
+    /* animation: rishiAnimation; */
+    /* animation-duration: 1s; */
+    /* animation-iteration-count:3 ; */
+    /* animation-delay: 1s; */
+    /* animation-play-state: paused; */
+    /* animation-play-state: running; */
+    /* animation-direction: reverse; */
+    /* animation-timing-function: cubic-bezier(0, 0,0, 0.96); */
+    /* animation-iteration-count:infinite ; */
+}
+@keyframes rishiAnimation {
+    from{
+background-color: blueviolet;
+    }
+    to{
+        background-color: aqua;
+        transform: translateX(300px);
+    }
+    
+}
+@keyframes rishiTwo {
+    0%{
+transform:rotate(45deg);
+    }
+    20%{
+        transform: rotate(90deg);
+    }
+    40%{transform: rotate(135deg);
+
+    }
+    60%{
+        transform: rotate(180deg);
+    }
+    80%{
+        transform: rotate(275deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

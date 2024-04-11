@@ -1,0 +1,36 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --color:rgb(236, 231, 122);
+    --seccolor:rgb(146, 235, 234);
+    --defpad:15px;
+    --devwit:8px;
+    
+
+}
+/* css variable  also hold  colors and values */
+.container{
+    background-color: var(--color);
+}
+.nav{
+    background-color: var(--seccolor);
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    margin: var(--defpad);
+    padding:var(--devwit);
+    border: 2px solid black;
+}
+ul li:first-child{
+    --color:rgb(241, 80, 22);
+   
+
+    background-color:var(--color,blue);
+
+}

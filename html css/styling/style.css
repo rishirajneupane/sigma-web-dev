@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(238, 84, 1);
+}
+h1{
+    font-size: large;
+    color: rgb(29, 29, 4);
+}
+p{
+    font-family: "Baloo Bhaijaan 2", sans-serif;
+    color: rgb(245, 243, 242);
+    
+    background-color: rgb(34, 0, 255);
+    font-size: 2em;
+    border: 10px solid mediumslateblue;
+    /* visibility: hidden; */
+    /* display: none; */
+}
+.container{
+    border: 2px solid black; 
+    background-color: rgb(109, 113, 110);
+    height:20vw;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;}
